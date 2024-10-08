@@ -1,0 +1,655 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap');
+/* common */
+:root{
+
+    --black: #000000;
+    --ash : #8e8e8e;
+    --whit: #ffffff;
+    --work: #f8f8f8;
+    --wrh : #7171719f;
+
+    --rob: "Roboto", sans-serif;
+    --lat: "Lato", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+/* header strat */
+header{
+  /* padding: 15px 0px;  */
+  background-color: var(--whit);
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+.line_logo {
+    margin: 0 auto;
+    width: 1px;
+    height: 30px;
+    background-color: var(--black);
+}
+.logo h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black);
+}
+.menu ul li a{
+    padding-left: 30px !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ash);
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+   color: var(--black);
+}
+.bi{
+     padding-left: 30px;
+     border: none;
+     color: var(--ash);
+     background: transparent;
+}
+.bi::after {
+    display: none;
+}
+.db_m{
+    padding: 5px 0px;
+    width: 235px;
+}
+.db_m[data-bs-popper] {
+    top: 67px;
+    left: -180px;
+}
+.s_in{
+    border: none;
+}
+.s_in:focus {
+    box-shadow: none;
+}
+.ns_i i{
+  font-size: 24px;
+  padding-top: 5px !important;
+  transition: 0.5s;
+}
+.ns_i i:hover{
+    color: var(--black);
+}
+/* header end */
+
+/* banner strat */
+.banner{
+   background-image: url(../img/slider.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.slider_item {
+    padding: 170px 210px 170px 0px;
+}
+.slider_item h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--whit);
+}
+.slider_item p{
+    padding: 50px 0px;
+    color: var(--whit);
+}
+.slider_item a{
+    padding: 20px 50px;
+    color: var(--black);
+    text-transform: uppercase;
+    background: var(--whit);
+}
+.slider_item span{
+    padding-left: 25px;
+}
+.s1_sp1{
+    padding-left: 15px; 
+}
+.s1_sp2{
+    padding-right: 15px;
+}
+.s1_btn{
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+}
+/* banner end */
+/* .welcome{
+    padding: 50px 0px 50px;
+} */
+/* feature strat */
+.feature{
+   padding: 0px 0px 30px;
+}
+.line{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 2px;
+    height: 50px;
+    background-color: var(--black);
+}
+.title{
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.f_text p{
+    line-height: 30px;
+}
+.f_item{
+    margin-top: 100px;
+    padding: 0px 20px 40px;
+    position: relative;
+    border: 1px solid var(--ash);
+  transition: 0.3s;
+}
+/* hover strat */
+.f_item:hover{
+    border: 1px solid var(--black);
+}
+.f_item:hover .f_icon i{
+    color: var(--black);
+}
+.f_item:hover a{
+    color: var(--black);
+}
+.f_item:hover span{
+    color: var(--black);
+}
+/* hover end */
+
+.f_icon i{
+    margin: -22px 0px 20px;
+    width: 75px;
+    background-color: var(--whit);
+    font-size: 60px;
+    transition: 0.3s;
+}
+.f_h2{
+    padding: 10px 0px 20px;
+   font-size: 18px;
+   font-weight: 700;
+   color: var(--black);
+   text-transform: uppercase;
+}
+.dash{
+   width: 80px;
+   height: 2px;
+   background-color: var(--black);
+}
+.f_p{
+   padding: 20px 0px 45px;
+}
+.f_a{
+    color: var(--ash);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.f_a span{
+    padding-left: 20px;
+    color: var(--ash);
+    transition: 0.3s;
+}
+/* feature end */
+/* about strat */
+.about{
+   padding: 100px 0px 100px;
+}
+.ab_text{
+   padding: 10px 0px 0px 60px;
+}
+.ab_text h2{
+    font-family: var(--lat);
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+   text-transform: uppercase;
+}
+.abp_1{
+    padding: 50px 0 40px;
+    line-height: 28px;
+}
+.abp_2{
+    padding-bottom: 100px;
+    line-height: 28px;
+}
+.ab_text a{
+    text-transform: uppercase;
+    padding: 20px 40px;
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+.ab_text span{
+    padding-left: 30px;
+    color: var(--black);
+}
+/* about end */
+/* work strat */
+/* row 1 */
+.work{
+    padding: 0px 0px 100px;
+    background-color: var(--work);
+}
+/* row 2 */
+.w_menu {
+    margin: 100px 0px 60px;
+}
+.w_menu ul li{
+    padding: 10px;
+}
+.w_menu ul li a{
+    padding: 10px 10px;
+   color: var(--ash);
+   text-transform: uppercase;
+   border: 1px solid transparent;
+   transition: 0.5s;
+}
+.w_menu ul li a:hover{
+    color: var(--black);
+   border: 1px solid var(--black);
+}
+/* row 3 */
+.w_item{
+    margin-top: 30px;
+    position: relative;
+}
+/* over flow */
+.w_over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--wrh);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.w_icon i {
+    font-size: 60px;
+    color: var(--whit);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wo_text{
+    padding: 0px 20px;
+    background-color: var(--whit);
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.wo_text h2{
+    padding: 15px 0px 10px;
+    font-size: 18px;
+    font-family: var(--lat);
+    color: var(--black);
+    text-transform: uppercase;
+}
+.wo_text p{
+    padding-bottom: 10px;
+}
+/* hover */
+.w_item:hover .w_over{
+    opacity: 1;
+}
+/* work end */
+/* choose strat */
+.choose{
+    padding: 0px 0px 100px;
+}
+.c_item {
+    margin-top: 80px;
+    padding: 0px 32px;
+}
+.icon{
+    float: left;
+    width: 55px;
+}
+.icon i{
+    font-size: 60px;
+    transition: 0.4s;
+}
+.c_h2{
+    float: left;
+    width: 250px;
+}
+.c_h2 h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 20px;
+    transition: 0.4s;
+}
+.c_text p {
+    padding: 85px 0px 30px;
+    border-bottom: 1px solid var(--ash);
+    transition: 0.4s;
+}
+/* hover */
+.c_item:hover .icon i{
+    color: var(--black);
+}
+.c_item:hover .c_h2{
+    color: var(--black);
+}
+.c_item:hover .c_text p{
+    border-bottom: 1px solid var(--black);
+}
+/* choose end */
+/* man work strat */
+.man_work{
+    background-image: url(../img/man_slider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.wm_item{
+    margin-top: 50px;
+    position: relative;
+}
+/* over flow strat */
+.over2{
+    position: absolute;
+    top: 39%;
+    left: 25px;
+    right: 0%;
+    bottom: 12%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    background-color: var(--whit);
+    opacity: 0;
+    transition: 0.5s;
+}
+.over2 ul li{
+    padding: 10px 10px;
+}
+.over2 ul li a i{
+    /* padding: 10px 10px; */
+    font-size: 26px;
+    color: var(--ash);
+    border-right:  1px solid transparent;
+    transition: 0.3s;
+}
+/* hover */
+.wm_item:hover .over2{
+    opacity: 1;
+}
+.over2 ul li a i:hover{
+    color: var(--black);
+}
+/* over flow end */
+.mn_name{
+    padding: 0px 20px;
+    background-color: var(--whit);
+}
+.mn_name h2{
+    padding: 10px 0px 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+}
+.mn_name p{
+    padding-bottom: 10px;
+}
+/* man work end */
+/* price  strat */
+.price{
+    padding: 0px 0px 100px;
+}
+.p_fle{
+        border: 1px solid var(--ash) !important;
+        padding: 30px;
+        transition: 0.3s;
+}
+.p_table:hover .p_fle{
+    border: 1px solid var(--black);
+}
+.p_lege{
+        width: 90px !important;
+        float: none !important;
+        margin-left: 15px;
+        padding-left: 10px;
+        font-family: var(--lat);
+        font-weight: 700;
+        color: var(--black);
+        text-transform: uppercase;
+    }
+.p_lege2{
+        width: 150px !important;
+    }
+.p_lege3{
+        width: 160px !important;
+    }
+    .p_fle h2{
+        padding: 0px 0px 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--black);
+    }
+    .p_fle span {
+        padding-left: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--ash);
+    }
+    .p_fle ul li{
+        padding-bottom: 20px;
+    }
+    .pb_box{
+        margin-top: 40px;
+    }
+    .pb_box a{
+        margin: 0px 0px 0px 20px !important;
+        padding: 15px 40px;
+        border: 1px solid var(--black);
+        color: var(--black);
+        transition: 0.3s;
+    }
+    .pb_box a:hover{
+        background-color: var(--work);
+    }
+/* price  end */
+/* responsive html template strat */
+.responsive{
+   padding: 20px 0px;
+   background-color: var(--work);
+}
+.res_text h2{
+    padding: 15px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.res_text h2 span{
+    padding: 0px 20px;
+}
+.res_link a{
+    padding: 10px 50px;
+    color: var(--black);
+    text-transform: uppercase;
+    border: 1px solid;
+}
+.res_link span{
+    padding-left: 15px;
+}
+/* responsive html template end */
+/* slider 2 strat */
+.slider2{
+    padding: 100px 0px;
+}
+.slider2_box{
+    border: 1px solid var(--black);
+}
+.slider2_item{
+    padding: 30px 70px 10px 30px;
+}
+.slider2_text h2{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black);
+}
+.s2_p1{
+    padding: 15px 0px;
+}
+.s2_p2{
+    font-size: 18px;
+    color: var(--black);
+    padding: 0px 0px 25px 0px;
+}
+.slider2_text p{
+    padding: 0px 0px 20px 0px;
+}
+.slider2_button{
+    padding: 40px 10px;
+    background-color: var(--work);
+  border: 1px solid var(--black);
+}
+.btn2_prev{
+    padding: 0px 20px 60px;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+     border: none;
+     background: transparent;
+}
+.btn2_next{
+    padding: 60px 20px 0px;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+}
+/* slider 2 end */
+/* form strat */
+.form{
+   padding: 0px 0px 100px;
+}
+.fs{
+    padding: 120px;
+    border: 1px solid var(--black);
+}
+.name{
+   width: 47%;
+   float: left;
+}
+.f_com{
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    border-bottom: 1px solid var(--ash);
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid var(--black);
+    border-color: var(--black) !important;
+     box-shadow: none !important;
+}
+.name2{
+    margin-left: 59px;
+}
+.em_tx2{
+    padding-bottom: 0px;
+}
+.fm_button{
+    width: 243px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+}
+
+.fm_btn{
+    padding: 15px 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0%;
+    border: 1px solid var(--black);
+    background-color: transparent;
+}
+.fm_btn span{
+    padding-left: 20px;
+}
+/* form end */
+/* fotter top strat */
+.fotter_top{
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.border{
+    width: 100%;
+    height: 1px;
+    background-color: var(--work);
+    position: absolute;
+    left: 0%;
+    top: 83%;
+}
+.ft_text{
+    margin-top: 20px;
+    padding: 0px 80px;
+}
+.ft_text h2{
+    padding: 20px 0px 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.ft_text p{
+    color: var(--whit);
+    line-height: 28px;
+}
+.ft_icon{
+    margin: 30px 0px 90px;
+}
+.ft_icon ul li a i{
+    padding: 15px;
+    font-size: 26px;
+    color: var(--whit);
+    border: 1px solid var(--whit);
+    transition: 0.3s;
+}
+.ft_icon ul li a i:hover{
+    color: var(--black);
+    background-color: var(--whit);
+}
+/* fotter */
+.foter_text, .ft_terms{
+    padding: 20px 0px;
+}
+.foter_text p,a{
+    color: var(--whit);
+}
+.foter_text span{
+    padding: 0px 20px;
+}
+.ft_terms ul li a{
+    padding-left: 30px;
+}
+/* fotter top end */

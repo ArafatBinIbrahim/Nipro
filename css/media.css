@@ -1,0 +1,961 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+  /* header */
+  header{
+    padding: 0px 0px 5px;
+  }
+  .line_logo {
+    height: 20px;
+}
+.logo h1 {
+    padding-bottom: 20px;
+}
+  .menu ul li a{
+    padding-left: 0px !important;
+}
+.bi{
+    padding-left: 0px;
+}
+.db_m[data-bs-popper] {
+    top: -5px;
+    left: 40px;
+}
+.db_m{
+    padding:0px;
+    width: 200px;
+}
+/* slider */
+.slider_item {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.slider_item h2 {
+    font-size: 27px;
+}
+.slider_item p {
+    padding: 30px 10px;
+}
+.slider_item p {
+    padding: 25px 10px 30px;
+}
+.slider_item a {
+    padding: 10px 15px;
+}
+.slider_item span{
+    padding-left: 15px;
+}
+/* feature */
+.feature {
+    padding: 0px 0px 30px;
+}
+.line {
+    height: 35px;
+}
+.title{
+    padding: 0px 0px 20px;
+    font-size: 24px;
+}
+.f_text p {
+    line-height: 26px;
+}
+.f_item {
+    margin-top: 50px;
+    padding: 0px 65px 30px;
+}
+.f_icon i {
+    width: 60px;
+    font-size: 50px;
+}
+.f_h2 {
+    padding: 0px 0px 20px;
+}
+.f_p {
+    padding: 20px 0px 30px;
+}
+/* about */
+.about {
+    padding: 30px 0px 50px;
+}
+.ab_img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 90%;
+}
+.ab_text {
+    text-align: center;
+    padding: 10px 10px 0px;
+}
+.ab_text h2 {
+    font-size: 26px;
+}
+.ab_text span {
+    padding-left: 10px;
+}
+.abp_1 {
+    padding: 15px 0 15px;
+    line-height: 28px;
+}
+.abp_2 {
+    padding-bottom: 45px;
+    line-height: 28px;
+}
+.ab_text a {
+    padding: 10px 20px;
+    margin-left: 0px;
+}
+/* work */
+.work {
+    padding: 0px 0px 50px;
+}
+.w_menu {
+    margin: 0px 0px 10px;
+}
+/* hover strat */
+
+/* hover end */
+.w_item{
+    margin-top: 40px;
+}
+.w_menu ul{
+    margin: 0 auto;
+}
+.w_menu ul li {
+    margin-right: 0% !important;
+    padding: 0px;
+    line-height: 35px;
+}
+.w_icon i {
+    font-size: 50px;
+    top: 40%;
+}
+.wo_text{
+    padding-left: 20px;
+    width: 100%;
+    background-color: var(--whit);
+}
+.wo_text h2 {
+    padding: 10px 0px 10px;
+}
+/* choose */
+.choose {
+    padding: 0px 0px 50px;
+}
+.c_item {
+    margin-top: 40px;
+    padding-right: 0px;
+    padding-left: 0%;
+}
+.icon{
+    width: 100%;
+    text-align: center;
+}
+.icon i {
+    font-size: 50px;
+}
+.c_h2{
+    width: 100%;
+    text-align: center;
+}
+.c_h2 h2 {
+    padding: 5px 0px 10px 0px;
+    font-size: 16px;
+}
+.c_text p {
+    padding: 20px 0px 20px;
+}
+/* man work */
+.man_work {
+    padding: 0px 0px 50px;
+}
+.over2 {
+    height: 170px;
+    top: 42%;
+    bottom: 13%;
+    transform: translate(-48%,-55%);
+}
+.over2 ul li {
+    padding: 7px 8px;
+}
+/* prise */
+.price {
+    padding: 0px 0px 20px;
+}
+.p_table{
+    margin-bottom: 30px;
+}
+.pb_box {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.pb_box a {
+    text-align: center;
+    padding: 10px 20px;
+}
+/* responsive  */
+.res_text h2{
+    padding: 5px 0px 0px 0px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+.res_text h2 span {
+    padding: 0px 5px;
+}
+.res_link {
+    margin: 0 auto;
+    width: 160px;
+}
+.res_link a {
+    padding: 10px 20px;
+}
+/* slider2 */
+.slider2 {
+    padding: 50px 0px;
+}
+.slider2_box{
+    margin-bottom: 15px;
+}
+.slider2_img{
+    margin-bottom: 20px !important;
+    width: 150px;
+    margin: 0 auto;
+}
+.slider2_img img{
+    border-radius: 50%;
+}
+.slider2_item {
+    padding: 20px;
+}
+.slider2_text{
+    text-align: center;
+}
+.slider2_text p {
+    padding: 0px 0px 10px 0px;
+}
+.slider2_button {
+    padding: 0px;
+}
+.btn2_prev {
+    padding: 15px 0px 10px 15px;
+    writing-mode:unset;
+}
+.btn2_next {
+    float: right;
+    padding: 15px 15px 10px 0px;
+    writing-mode:unset;
+}
+/* form */
+.form {
+    padding: 0px 0px 50px;
+}
+.fs {
+    padding: 30px;
+}
+.f_com {
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+.name {
+    width: 100%;
+    float: none;
+}
+.name2 {
+    margin-left: 0px;
+}
+.fm_button{
+    width: 185px;
+}
+.fm_btn {
+    padding: 10px 20px;
+}
+/* fotter top */
+.ft_text{
+    padding: 0px ;
+  }
+  .ft_text h2 {
+    padding: 10px 0px 10px;
+    font-size: 25px;
+}
+.ft_icon {
+    margin: 25px 0px 35px;
+}
+.ft_icon ul li a i {
+    padding: 8px !important;
+    font-size: 18px;
+}
+/* fotter */
+.border {
+    top: 74%;
+}
+.foter_text {
+    font-size: 12px;
+    padding: 20px 0px 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+.ft_terms {
+    padding-top: 0%;
+    width: 100%;
+    margin: 0 auto;
+}
+.ft_terms ul{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.foter_text span{
+    padding: 0px 5px;
+}
+.ft_terms ul li a{
+    padding: 0px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+/* gap */
+.gap {
+    margin-top: 20px;
+    width: 100%;
+    height: 10px;
+    background-color: transparent;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  header{
+    padding: 0px 0px 10px;
+  }
+  .line_logo {
+    height: 25px;
+}
+.logo h1 {
+    padding-bottom: 25px;
+}
+  .menu ul li a{
+    padding-left: 0px !important;
+}
+.bi{
+    padding-left: 0px;
+}
+.db_m[data-bs-popper] {
+    top: -12px;
+    left: 85px;
+}
+/* slider */
+.slider_item {
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+}
+.slider_item h2 {
+    font-size: 40px;
+}
+.slider_item p {
+    padding: 30px 10px;
+}
+.slider_item a {
+    padding: 10px 20px;
+}
+/* feature */
+.feature {
+    padding: 0px 0px 30px;
+}
+.line {
+    height: 45px;
+}
+.title{
+    padding: 0px 0px 30px;
+}
+.f_text p {
+    line-height: 28px;
+}
+.f_item {
+    margin-top: 60px;
+    padding: 0px 10px 30px;
+}
+.f_icon i {
+    width: 60px;
+    font-size: 50px;
+}
+.f_h2 {
+    padding: 60px 0px 20px;
+}
+.f_p {
+    padding: 20px 0px 35px;
+}
+
+/* about */
+.about {
+    padding: 60px 0px 70px;
+}
+.ab_img {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 520px;
+}
+.ab_text {
+    padding: 10px 0px 0px 15px;
+}
+.abp_1 {
+    padding: 25px 0 25px;
+    line-height: 28px;
+}
+.abp_2 {
+    padding-bottom: 55px;
+    line-height: 28px;
+}
+/* work */
+.work {
+    padding: 0px 0px 60px;
+    background-color: var(--work);
+}
+.w_menu {
+    margin: 0px 0px 20px;
+}
+.w_menu ul{
+    margin: 0 auto;
+    width: 410px !important;
+}
+.w_menu ul li {
+    margin-right: 0%;
+    padding: 0px;
+    line-height: 35px;
+}
+.w_icon img {
+    margin: 70px 0px 69px;
+}
+.wo_text{
+    padding-left: 20px;
+    width: 100%;
+    background-color: var(--whit);
+}
+.w_icon i {
+    font-size: 50px;
+    top: 40%;
+}
+.wo_text {
+    top: 78%;
+}
+.wo_text h2 {
+    padding: 5px 0px 5px;
+}
+/* choose */
+.choose {
+    padding: 0px 0px 60px;
+}
+.c_item {
+    margin-top: 40px;
+    padding-right: 0px;
+    padding-left: 0%;
+}
+.icon{
+    width: 100%;
+    text-align: center;
+}
+.c_h2{
+    width: 100%;
+    text-align: center;
+}
+.c_h2 h2 {
+    padding: 20px 0px 20px;
+}
+.c_text p {
+    padding: 20px 60px 30px;
+    text-align: center;
+}
+/* man work */
+.man_work {
+    padding: 10px 0px 60px;
+}
+.over2 {
+    top: 36%;
+    bottom: 10%;
+}
+.over2 ul li {
+    padding: 8px 10px;
+}
+/* prise */
+.price {
+    padding: 0px 0px 40px;
+}
+.p_table{
+    margin-bottom: 20px;
+}
+.p_fle {
+    padding: 30px 30px 40px;
+}
+.pb_box a {
+    margin: 0px 0px 0px 10px !important;
+    padding: 10px 30px;
+}
+.p_fle span {
+    padding-left: 20px;
+}
+/* responsive  */
+.res_text h2{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.res_link a{
+    margin-right: 140px;
+}
+/* slider2 */
+.slider2 {
+    padding: 60px 0px;
+}
+.slider2_box{
+    margin-bottom: 15px;
+}
+.slider2_img{
+    margin-bottom: 20px !important;
+    width: 200px;
+    margin: 0 auto;
+}
+.slider2_img img{
+    border-radius: 50%;
+}
+.slider2_item {
+    padding: 20px;
+}
+.slider2_text{
+    text-align: center;
+}
+.slider2_text p {
+    padding: 0px 0px 10px 0px;
+}
+.slider2_button {
+    padding: 0px 50px;
+}
+.btn2_prev {
+    padding: 15px 270px 5px 15px;
+    writing-mode:unset;
+}
+.btn2_next {
+    padding: 15px 5px;
+    writing-mode:unset;
+}
+/* form */
+.fs {
+    padding: 50px;
+}
+.name {
+    width: 100%;
+    float: none;
+}
+.name2 {
+    margin-left: 0px;
+}
+.fm_btn {
+    padding: 15px 40px;
+}
+/* fotter top */
+.ft_text h2 {
+    padding: 20px 0px 25px;
+    font-size: 28px;
+}
+.ft_icon {
+    margin: 25px 0px 35px;
+}
+.ft_icon ul li a i {
+    padding: 12px;
+    font-size: 20px;
+}
+/* fotter */
+.border {
+    top: 76%;
+}
+.foter_text{
+   text-align: center;
+}
+.ft_terms{
+    padding-top: 0%;
+    width: 430px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.ft_terms ul{
+    width: 430px;
+    float: none;
+    
+}
+.ft_terms ul li a{
+    padding: 0px 10px;
+}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header */
+  .menu ul li a{
+    padding-left: 0px !important;
+}
+.bi{
+    padding-left: 0px;
+}
+.db_m[data-bs-popper] {
+    top: -5px;
+    left: 70px;
+}
+/* slider */
+.slider_item {
+    padding: 120px 0px 120px 0px;
+    text-align: center;
+}
+/* feature */
+.feature {
+    padding: 0px 0px 0px;
+}
+.title{
+    padding: 0px 0px 35px;
+}
+.f_item {
+    margin-top: 80px;
+}
+/* about */
+.about {
+    padding: 80px 0px 80px;
+}
+.ab_img{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 600px;
+}
+.ab_text {
+    padding: 10px 0px 0px 15px;
+}
+.abp_1 {
+    padding: 40px 0 30px;
+    line-height: 28px;
+}
+.abp_2 {
+    padding-bottom: 60px;
+    line-height: 28px;
+}
+/* work */
+.work {
+    padding: 0px 0px 80px;
+}
+.w_menu {
+    margin: 0px 0px 30px;
+}
+.w_menu ul{
+    margin: 0 auto;
+    width: 540px;
+}
+.w_menu ul li {
+    padding: 0px;
+}
+.w_icon img {
+    margin: 56px 0px 50px;
+}
+.w_icon i {
+    font-size: 50px;
+    top: 40%;
+}
+.wo_text {
+    top: 82%;
+}
+
+.wo_text h2 {
+    padding: 5px 0px 5px;
+}
+/* choose */
+.choose {
+    padding: 0px 0px 80px;
+}
+.tpb{
+    padding: 0px 0px 15px;
+}
+.c_item {
+    margin-top: 70px;
+    padding: 0px 32px;
+}
+.c_h2 {
+    width: 200px;
+}
+.c_text p {
+    padding: 70px 0px 25px;
+}
+/* man work */
+.man_work {
+    padding: 30px 0px 80px;
+}
+.over2 {
+    top: 41%;
+    bottom: 15%;
+}
+.over2 ul li {
+    padding: 8px 10px;
+}
+/* prise */
+.price {
+    padding: 40px 0px;
+}
+.p_table{
+    margin-bottom: 40px;
+}
+.p_fle {
+    padding: 30px 30px 40px;
+}
+.pb_box a {
+    margin: 0px 0px 0px 50px !important;
+}
+.p_fle span {
+    padding-left: 20px;
+}
+/* slider2 */
+.slider2 {
+    padding: 80px 0px;
+}
+.slider2_box{
+    margin-bottom: 20px;
+}
+.slider2_img{
+    margin-bottom: 30px !important;
+    width: 300px;
+    margin: 0 auto;
+}
+.slider2_img img{
+    border-radius: 50%;
+}
+.slider2_item {
+    padding: 30px;
+}
+.slider2_text{
+    text-align: center;
+}
+.slider2_text p {
+    padding: 0px 0px 15px 0px;
+}
+.slider2_button {
+    padding: 0px 50px;
+}
+.btn2_prev {
+    padding: 15px 450px 5px 15px;
+    writing-mode:unset;
+}
+.btn2_next {
+    padding: 15px 5px;
+    writing-mode:unset;
+}
+/* form */
+.fs {
+    padding: 80px;
+}
+.name {
+    width: 44%;
+}
+/* fotter top */
+.ft_icon {
+    margin: 30px 0px 70px;
+}
+/* fotter */
+.border{
+    top: 75%;
+}
+.foter_text{
+   text-align: center;
+}
+.ft_terms{
+    padding-top: 0%;
+    width: 430px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.ft_terms ul{
+    width: 430px;
+    float: none;
+    
+}
+.ft_terms ul li a{
+    padding: 0px 10px;
+}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* slider */
+  .slider_item {
+    padding: 170px 50px 170px 0px;
+}
+/* about */
+.ab_text {
+    padding: 0px 0px 0px 0px;
+}
+.abp_1 {
+    padding: 20px 0 20px;
+    line-height: 24px;
+}
+.abp_2 {
+    padding-bottom: 40px;
+    line-height: 24px;
+}
+/* work */
+.w_menu {
+    margin: 30px 0px 40px;
+}
+.w_icon img {
+    margin: 100px 0px 87px;
+}
+.wo_text{
+    padding-left: 20px;
+    width: 100%;
+    background-color: var(--whit);
+}
+.wo_text h2 {
+    padding: 5px 0px 5px;
+}
+/* choose */
+.c_item {
+    margin-top: 70px;
+    padding: 0px 10px;
+}
+.c_h2 {
+    width: 200px;
+}
+/* man work */
+.over2 {
+    top: 39%;
+    bottom: 5%;
+}
+.over2 ul li {
+    padding: 6px 10px;
+}
+
+/* prise */
+.p_fle {
+    padding: 0px 18px 30px;
+}
+.pb_box a {
+    margin: 0px 0px 0px 0px !important;
+    padding: 10px 40px;
+}
+.p_fle span {
+    padding-left: 10px;
+}
+/* slider2 */
+.slider2_img{
+    margin-top: 5px;
+    height: 240px;
+}
+.slider2_img img{
+    height: 100% !important;
+}
+.slider2_item {
+    padding: 20px 20px 10px 20px;
+}
+.slider2_text p {
+    padding: 0px 0px 8px 0px;
+}
+.slider2_button {
+    padding: 40px 10px;
+}
+.btn2_prev {
+    padding: 0px 5px 42px;
+}
+.btn2_next {
+    padding: 42px 5px 0px;
+}
+/* form */
+.name {
+    width: 45%;
+}
+/* fotter top */
+.ft_text {
+    padding: 0px 60px;
+}
+.ft_icon {
+    margin: 30px 0px 80px;
+}
+/* fotter */
+.border {
+    top: 83%;
+}
+.foter_text, .ft_terms {
+    padding: 15px 0px;
+}
+.ft_terms ul li a {
+    padding-left: 15px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* slider */
+    .slider_item {
+        padding: 170px 90px 170px 0px;
+    }
+/* about */
+.ab_text {
+    padding: 0px 0px 0px 60px;
+}
+.abp_1 {
+    padding: 40px 0 30px;
+    line-height: 26px;
+}
+.abp_2 {
+    padding-bottom: 50px;
+    line-height: 26px;
+}
+/* work */
+.w_menu {
+    margin: 30px 0px 50px;
+}
+.w_icon img {
+    margin: 120px 0px 132px;
+}
+/* choose */
+.c_item {
+    margin-top: 70px;
+    padding: 0px 27px;
+}
+.c_h2 {
+    width: 200px;
+}
+/* man work */
+.over2 {
+    top: 39%;
+    bottom: 5%;
+}
+.over2 ul li {
+    padding: 10px 10px;
+}
+/* price */
+.pb_box a {
+    margin: 0px 0px 0px 10px !important;
+}
+/* slider2 */
+.slider2_item {
+    padding: 20px 20px 10px 20px;
+}
+.slider2_text p {
+    padding: 0px 0px 10px 0px;
+}
+.slider2_button {
+    padding: 35px 10px;
+}
+.btn2_prev {
+    padding: 0px 15px 40px;
+}
+.btn2_next {
+    padding: 40px 15px 0px;
+}
+/* form */
+.name {
+    width: 46%;
+}
+/* fotter top */
+.ft_text {
+    padding: 0px 60px;
+}
+ }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* work */
+  .w_menu {
+    margin: 60px 0px 60px;
+}
+ }
